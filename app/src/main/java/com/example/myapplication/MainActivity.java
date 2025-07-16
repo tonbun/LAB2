@@ -73,4 +73,23 @@ public class MainActivity extends AppCompatActivity {
         float getAreaCircle(float redius){
         return 3.15f*redius*redius;
         }
+
+
+        Animal dogA = new Animal();
+        Animal dogB = new Animal();
+        Animal birdA = new Animal();
+
+        dogA.type = "dog";
+        dogA.hasWing = false;
+        dogA.numberOfLeg = 4;
+        dogA.move();
+
+        birdA.type = "bird";
+        birdA.hasWing = true;
+        birdA.numberOfLeg = 2;
+
+        dogB.type = "dog";
+        dogB.hasWing = false;
+        dogB.numberOfLeg = 4;
+
     }
